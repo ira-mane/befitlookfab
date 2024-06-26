@@ -21,6 +21,31 @@ export const pricing = [
     }
 ]
 
+export const faqItems = [
+    {
+      question: 'How do I book a consultation with the dietician?',
+      answer:
+        'You can book a consultation by clicking the "Book Now" button on our home page. Alternatively, you can call or email us using the contact information provided below, or direct message us on Instagram.',
+    },
+    {
+      question: 'What are the consultation charges?',
+      answer:
+        'Initial Consultation charges are Rs. 500. Or you can either choose the plan listed on our pricing page',
+    },
+    {
+      question: 'How do I book a consultation with the dietician?',
+      answer:
+        'You can book a consultation by clicking the "Book Now" button on our home page. Alternatively, you can call or email us using the contact information provided below, or direct message us on Instagram.',
+    },
+    {
+        question: 'How do I book a consultation with the dietician?',
+        answer:
+          'You can book a consultation by clicking the "Book Now" button on our home page. Alternatively, you can call or email us using the contact information provided below, or direct message us on Instagram.',
+      }
+
+  ];
+
+  
 // Light Yellow - #EDFFCC
 // Dark Green - #3B5704
 // Light Green - #81B622

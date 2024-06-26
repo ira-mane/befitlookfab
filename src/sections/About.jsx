@@ -1,20 +1,16 @@
 import React from 'react'
+import fruitbg from '../assets/images/fruitbg.png'
 
 const About = () => {
   return (
 
-    <div className="bg-[#EDFFdd] min-h-screen flex flex-col lg:flex-row items-center justify-center">
-      {/* Moving strip animation */}
-      <div className="bg-black absolute top-0 left-0 w-full overflow-hidden">
-        <div className="animate-slidein300 inline-block whitespace-nowrap">
-          <span className="text-black font-bold text-lg">
-            Discover our journey... Join now and claim your free package!
-          </span>
-        </div>
-      </div>
-
-      {/* Left Side: Mission and Vision */}
-      <div className="lg:w-1/2 p-8">
+    <div id='services'className="bg-[#EDFFdd] min-h-screen flex flex-col lg:flex-row items-center justify-center" style={{
+      backgroundImage: `url(${fruitbg})`, // Set the background image
+      backgroundSize: 'cover', // Adjust as needed
+      backgroundPosition: 'center', // Center the image
+    }}>
+{/* Left Side: Mission and Vision */}
+      <div className="lg:w-1/2 p-8 border border-[#3B5704] rounded-lg bg-[#F0F5E1] ml-5">
         <h1 className="text-[#3B5704] font-bold text-5xl">Our Mission</h1>
         <p className="text-slate-05 text-2xl mt-1">
           Empower individuals to reach weight loss goals with personalized nutrition plans and continuous support.
@@ -26,7 +22,7 @@ const About = () => {
       </div>
 
       {/* Right Side: Our Story */}
-      <div className="lg:w-1/2 p-8">
+      <div className="lg:w-1/2 p-8 border border-[#3B5704] rounded-lg bg-[#F0F5E1] mr-3 ml-3">
         <h1 className="text-[#3B5704] font-bold text-5xl mb-3">Our Story</h1>
         <p className="text-slate-05 text-2xl">
           Shumaila Sayyed, the founder of our company, is passionate about promoting healthy lifestyles and empowering individuals to make sustainable changes.
