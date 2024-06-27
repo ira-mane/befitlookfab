@@ -8,6 +8,7 @@ import Faq from './sections/Faq'
 
 
 
+
 const App = () => {
   return (
     <>
@@ -17,6 +18,8 @@ const App = () => {
     <Faq/>
     <Contact/>
     <Footer/>
+  
+
     </>
   )
 }
