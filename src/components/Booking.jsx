@@ -7,8 +7,8 @@ const Booking = () => {
     <div id='booking' className='w-h-screen bg-[#EDFFCC]'>
       <FormfacadeEmbed
 
-        formFacadeURL="https://formfacade.com/include/113179649782249536771/form/1FAIpQLSeMjDrDc8B5TwcF4pc5zA6VssXau9yd370iJyOcxpRy4qMV8A/classic.js/?div=ff-compose"
-
+        // formFacadeURL="https://formfacade.com/include/113179649782249536771/form/1FAIpQLSeMjDrDc8B5TwcF4pc5zA6VssXau9yd370iJyOcxpRy4qMV8A/classic.js/?div=ff-compose"
+        formFacadeURL="https://formfacade.com/include/113179649782249536771/form/1FAIpQLSfIrYrSSwoy3PhNZqP2G_XR7pm2to2J45E0R_b9r-IKsd7DJg/classic.js/?div=ff-compose"
         onSubmitForm={() => console.log('Form submitted')}
 
       />
