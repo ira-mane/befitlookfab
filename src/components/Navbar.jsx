@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className='hidden lg:flex justify-end items-center gap-2'>
                 <ul className='flex justify-center items-center gap-3'>
                     <li className='text-lg text-[#3B5704] cursor-pointer rounded-sm  px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
-                        <NavLink to='/about'>About Us</NavLink>
+                        <NavLink to='/about'>About</NavLink>
                     </li>
                     <li className='text-lg text-[#3B5704] cursor-pointer rounded-sm  px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
                         <NavLink to='/Pricing'>Pricing</NavLink>
