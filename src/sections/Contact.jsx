@@ -35,7 +35,7 @@ const Contact = () => {
         <div className='flex justify-center items-center w-full lg:w-3/4 flex-col lg:flex-row bg-white rounded-lg px-8 py-12 gap-10 z-20'>
           <div className='flex justify-center items-start flex-col gap-4 w-full'>
             <h1 className='text-[#3b5704] font-bold text-[35px]'>Contact Info</h1>
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={call} alt="callicon" width={22} height={22} /></span>+91 84250 79284</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={call} alt="callicon" width={22} height={22} /></span>+91 99999 99999</div>
             <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>befitlookfab@gmail.com</div>
             <div id='logos' className='flex justify-center items-center gap-4 mt-10'>
               <span className='bg-[#81b622] p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={fb} alt="fb icon" width={25} height={25} /></span>
