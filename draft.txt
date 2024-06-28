@@ -1,0 +1,26 @@
+COLORS  AND FONT
+BRAND GUIDELINES 
+Fonts to be use
+Heading - League Spartan
+Sub Headings - DM Sans
+Body Text - Open Sans 
+
+
+COLOUR FORMAT and CODE
+Light Yellow - #EDFFCC
+Dark Green - #3B5704
+Light Green - #81B622
+
+
+
+Text In Header -
+
+Navbar - 
+
+Text in Tab - 
+
+Text In Home Header - 
+
+Text in Home Body 
+
+Home Button -
