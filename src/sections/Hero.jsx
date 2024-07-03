@@ -2,8 +2,6 @@ import React from 'react'
 import Heroimg from '../assets/images/heroimg.png'
 import Faq from '../sections/Faq'
 import Contact from '../sections/Contact'
-import Value from '../sections/Value'
-
 
 const Hero = () => {
     return (
@@ -22,15 +20,10 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='relative h-full flex justify-center item-center w-1/2 px-5 py-20 object-cover'>
-                    {/* <video className="absolute inset-0 h-full w-full rounded-lg object cover" controls>
-                        <source src="https://lottie.host/embed/449c5a6d-fa66-4053-a2c1-be74d5cbf7d0/I9Cs0FnSuK.json" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video> 
-                    <img src={Heroimg} alt="Yoga Lady/Healthy Diet/Nutrition" width={700} height={600} /> */}
-                    <lottie/>
+                    <img src={Heroimg} alt="Yoga Lady/Healthy Diet/Nutrition" width={700} height={600} />
+
                 </div>
             </section>
-            <Value />
             <Faq />
             <Contact />
         </>

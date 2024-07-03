@@ -9,23 +9,23 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Booking from './components/Booking'
 import Pricing from './components/Pricing'
 import Blog from './components/Blog'
-import Recipe from './components/Recipe'
 import Bmi from './components/Bmi'
+import SingleBlog from './components/SingleBlog'
 
 const App = () => {
   return (
-    <BrowserRouter>
+<BrowserRouter>
       <Header />
       <Routes>
         <Route path='/' element={<Hero />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/pricing' element={<Pricing />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
-        <Route path='/recipe' element={<Recipe />}></Route>
         <Route path='/bmi' element={<Bmi />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/faq' element={<Faq />}></Route>
         <Route path='/booking' element={<Booking />}></Route>
+        <Route path='/blog/:id' element={<SingleBlog/>}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
