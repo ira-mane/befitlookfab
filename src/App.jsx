@@ -11,7 +11,6 @@ import Pricing from './components/Pricing'
 import Blog from './components/Blog'
 import Recipe from './components/Recipe'
 import Bmi from './components/Bmi'
-import FormfacadeEmbed from "@formfacade/embed-react";
 
 const App = () => {
   return (

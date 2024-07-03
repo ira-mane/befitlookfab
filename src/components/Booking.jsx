@@ -4,14 +4,10 @@ import FormfacadeEmbed from "@formfacade/embed-react";
 
 const Booking = () => {
   return (
-    <div id='booking' className='w-h-screen bg-[#EDFFCC]'>
-      <FormfacadeEmbed
-
-        // formFacadeURL="https://formfacade.com/include/113179649782249536771/form/1FAIpQLSeMjDrDc8B5TwcF4pc5zA6VssXau9yd370iJyOcxpRy4qMV8A/classic.js/?div=ff-compose"
-        formFacadeURL="https://formfacade.com/include/113179649782249536771/form/1FAIpQLSfIrYrSSwoy3PhNZqP2G_XR7pm2to2J45E0R_b9r-IKsd7DJg/classic.js/?div=ff-compose"
-        onSubmitForm={() => console.log('Form submitted')}
-
-      />
+    <div id='booking' className='w-h-screen bg-[#EDFFCC] flex justify-center align-middle'>
+      <iframe  
+                scrolling='no'
+                allowFullScreen src="https://docs.google.com/forms/d/e/1FAIpQLSeMjDrDc8B5TwcF4pc5zA6VssXau9yd370iJyOcxpRy4qMV8A/viewform?embedded=true" width="640" height="2123" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
     </div>
   )
 }

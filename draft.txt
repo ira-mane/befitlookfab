@@ -1,10 +1,6 @@
-COLORS  AND FONT
-BRAND GUIDELINES 
-Fonts to be use
 Heading - League Spartan
 Sub Headings - DM Sans
 Body Text - Open Sans 
-
 
 COLOUR FORMAT and CODE
 Light Yellow - #EDFFCC
@@ -12,15 +8,39 @@ Dark Green - #3B5704
 Light Green - #81B622
 Bg Color - #F8FFE8
 
+https://youtu.be/OCAmcWMFEVQ?si=6TzHOgZ0dR0n-qJA
 
-Text In Header -
 
-Navbar - 
+Certainly! Let's break down your requirements:
 
-Text in Tab - 
+1. **Form in React without a Backend:**
+   - If you want to collect form data without setting up a backend, you can use **Zapier**. Here's how:
+     - Create a form in React using hooks (you can use functional components).
+     - Add input fields (don't forget the labels for accessibility and SEO).
+     - Obtain a Zapier webhook URL by creating a Zap (integration) that catches data from the webhook.
+     - Hardcode the webhook URL into your form's action attribute.
+     - When users submit the form, it will post data to the Zapier URL, which can then connect to various data sources¹.
 
-Text In Home Header - 
+   - Alternatively, you can use **Google Sheets** as a simple "database":
+     - Collect form data in React.
+     - Use the Google Sheets API to write data directly to a Google Sheet.
+     - This approach doesn't require a backend server but does involve setting up Google Sheets API access.
 
-Text in Home Body 
+2. **Blog Page:**
+   - For a blog page, you can create static content using React components.
+   - Consider using a markdown-to-HTML library (like `react-markdown`) to render blog posts from markdown files.
+   - Store your blog posts as markdown files in your project (no backend needed).
 
-Home Button -
+3. **CMS Options:**
+   - While React itself doesn't provide a built-in CMS, you can integrate third-party CMS solutions:
+     - **Contentful**: A headless CMS that allows you to manage content and retrieve it via APIs.
+     - **Netlify CMS**: A Git-based CMS that integrates well with static site generators like Gatsby or Next.js.
+     - **Strapi**: A self-hosted CMS with a RESTful API or GraphQL endpoints.
+     - **Prismic**: Another headless CMS with a visual editor and API access.
+
+
+(1) Collect form data without a backend in React (using hooks!) | blog .... https://blog.jakoblind.no/react-forms-hooks/.
+(2) Why not making a React app without a backend? - Stack Overflow. https://stackoverflow.com/questions/69413546/why-not-making-a-react-app-without-a-backend.
+(3) CRUD Example with React Hook Form - Jason Watmore's Blog. https://jasonwatmore.com/post/2020/10/09/react-crud-example-with-react-hook-form.
+(4) How To Build Forms in React | DigitalOcean. https://www.digitalocean.com/community/tutorials/how-to-build-forms-in-react.
+(5) undefined. https://hooks.zapier.com/hooks/catch/abc/123/.
