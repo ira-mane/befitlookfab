@@ -5,9 +5,9 @@ const About = () => {
   return (
 
     <div id='services'className="bg-[#EDFFdd] min-h-screen flex flex-col lg:flex-row items-center justify-center" style={{
-      backgroundImage: `url(${fruitbg})`, // Set the background image
-      backgroundSize: 'cover', // Adjust as needed
-      backgroundPosition: 'center', // Center the image
+      backgroundImage: `url(${fruitbg})`, 
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center', 
     }}>
 {/* Left Side: Mission and Vision */}
       <div className="lg:w-1/2 p-8 border border-[#3B5704] rounded-lg bg-[#F0F5E1] ml-5">
@@ -39,5 +39,6 @@ const About = () => {
 }
 
 export default About
+
 
 

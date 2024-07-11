@@ -7,6 +7,9 @@ export default {
   theme: {
     extend: {},
   },
+  images: {
+    domains: ['images.unsplash.com'],
+  },
   plugins: [],
 }
 

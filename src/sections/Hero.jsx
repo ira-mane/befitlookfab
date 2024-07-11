@@ -2,6 +2,7 @@ import React from 'react'
 import Heroimg from '../assets/images/heroimg.png'
 import Faq from '../sections/Faq'
 import Contact from '../sections/Contact'
+import Value from '../sections/Value'
 
 const Hero = () => {
     return (
@@ -24,6 +25,7 @@ const Hero = () => {
 
                 </div>
             </section>
+            <Value/>
             <Faq />
             <Contact />
         </>

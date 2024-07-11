@@ -22,35 +22,46 @@ function BMICalculator() {
   };
 
   return (
-    <div className='h-[90vh] flex justify-center m-10 flex-col align-middle'>
-        <div className='bg-white'>
+    <div className="h-[80vh] flex justify-center items-center bg-[#EDFFCC]">
+      <div className="bg-white p-8 rounded shadow-md w-96">
+        <h1 className="text-xl font-bold text-black mb-4">Calculate Your Body Mass Index (BMI) Now</h1>
+        <p className="text-gray-700 mb-4">Body mass index (BMI) is a person’s weight in kilograms divided by the square of height in meters. BMI is an inexpensive and easy screening method for weight category—underweight, healthy weight, overweight, and obesity.</p>
         
-        <h1 className='text-bold text-black'>Calculate Your Body Mass Index(BMI) Now</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ipsam.</p>
+        <div className="mb-4">
+          <input
+            type="text"
+            id="height"
+            placeholder="Enter Height (in cm)"
+            value={height}
+            onChange={(e) => setHeight(e.target.value)}
+            className="border border-gray-300 rounded-md py-2 px-3 w-full focus:outline-none focus:border-green-300"
+          />
         </div>
-    <div>
-      <input
-        type="text"
-        id="height"
-        placeholder="Enter Height (in cm)"
-        value={height}
-        onChange={(e) => setHeight(e.target.value)}
-      />
-      <input
-        type="text"
-        id="weight"
-        placeholder="Enter Weight (in kg)"
-        value={weight}
-        onChange={(e) => setWeight(e.target.value)}
-      />
-      <button id="btn" onClick={calculateBMI}>
-        Calculate BMI
-      </button>
-      <div id="result">{result}</div>
-    </div>
+        
+        <div className="mb-4">
+          <input
+            type="text"
+            id="weight"
+            placeholder="Enter Weight (in kg)"
+            value={weight}
+            onChange={(e) => setWeight(e.target.value)}
+            className="border border-gray-300 rounded-md py-2 px-3 w-full focus:outline-none focus:border-green-300"
+          />
+        </div>
+        
+        <button
+          id="btn"
+          onClick={calculateBMI}
+          className="bg-[#3B5704] hover:bg-black text-white py-2 px-4 rounded focus:outline-none"
+        >
+          Calculate BMI
+        </button>
+        
+        <div id="result" className="mt-4 text-gray-800">{result}</div>
+      </div>
+     
     </div>
   );
 }
 
 export default BMICalculator;
-

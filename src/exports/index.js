@@ -1,5 +1,6 @@
 export const pricing = [
     {
+        key :'1',
         plan : 'One Month Plan',
         price : 'Rs. 700',
         label : '3 Consultation',
@@ -7,6 +8,7 @@ export const pricing = [
     },
 
     {
+        key:'1',
         plan : 'Two Month Plan',
         price : 'Rs. 1200',
         label : '6 Consultaion',
@@ -14,12 +16,14 @@ export const pricing = [
     },
 
     {
+        key:'1',
         plan : 'Three Month Plan',
         price : 'Rs. 1500',
         label : '9 Consultation',
         about : 'A 9-meal plan, nine consultations, exercise guidelines, traditional recipes, and lifestyle modification tips for a healthier, happier you'
     },
     {
+        key:'2',
       plan : 'One Month Plan',
       price : 'Rs. 700',
       label : '3 Consultation',
@@ -27,6 +31,7 @@ export const pricing = [
   },
 
   {
+    key:'2',
       plan : 'Two Month Plan',
       price : 'Rs. 1200',
       label : '6 Consultaion',
@@ -34,12 +39,14 @@ export const pricing = [
   },
 
   {
+    key:'2',
       plan : 'Three Month Plan',
       price : 'Rs. 1500',
       label : '9 Consultation',
       about : 'A 9-meal plan, nine consultations, exercise guidelines, traditional recipes, and lifestyle modification tips for a healthier, happier you'
   },
   {
+    key:'3',
     plan : 'One Month Plan',
     price : 'Rs. 700',
     label : '3 Consultation',
@@ -47,6 +54,7 @@ export const pricing = [
 },
 
 {
+    key:3,
     plan : 'Two Month Plan',
     price : 'Rs. 1200',
     label : '6 Consultaion',
@@ -54,6 +62,7 @@ export const pricing = [
 },
 
 {
+    key:3,
     plan : 'Three Month Plan',
     price : 'Rs. 1500',
     label : '9 Consultation',
@@ -84,8 +93,3 @@ export const faqItems = [
       }
 
   ];
-
-  
-// Light Yellow - #EDFFCC
-// Dark Green - #3B5704
-// Light Green - #81B622

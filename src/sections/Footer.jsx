@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-100 text-gray-700 py-5">
+        <footer className="bg-white text-gray-700 py-3">
             <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center">
                 {/* Left Section */}
                 <div className="mb-4 md:mb-0">
@@ -35,7 +35,8 @@ const Footer = () => {
 
             {/* Bottom Section */}
             <p className="text-center mt-6 text-gray-800 text-sm">
-                © {new Date().getFullYear()} All Rights Reserved. Designed and Developed by{' '}
+                © {new Date().getFullYear()} All Rights Reserved. 
+                {/* Designed and Developed by{' '}
                 <a
                     href="https://www.linkedin.com/in/ira-mane/"
                     target="_blank"
@@ -43,7 +44,7 @@ const Footer = () => {
                     className="text-green-800 hover:underline"
                 >
                     Ira | irammane14@gmail.com
-                </a>
+                </a> */}
             </p>
         </footer>
     );

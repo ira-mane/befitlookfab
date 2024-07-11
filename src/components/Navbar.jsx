@@ -14,7 +14,6 @@ const Navbar = () => {
                 <h1 className='text-[#3B5704] font-bold text-3xl'>BeFitLookFab</h1>
             </NavLink>
 
-            {/* Hamburger menu button for mobile */}
             <div className='block lg:hidden'>
                 <button onClick={toggleMenu} className='text-[#3B5704] focus:outline-none'>
                     <svg
@@ -57,11 +56,6 @@ const Navbar = () => {
                             Blog
                         </NavLink>
                     </li>
-                    {/* <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
-                        <NavLink to='/recipe' activeClassName='font-bold'>
-                            Recipe
-                        </NavLink>
-                    </li> */}
                     <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
                         <NavLink to='/bmi' activeClassName='font-bold'>
                             BMI

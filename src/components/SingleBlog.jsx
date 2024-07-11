@@ -2,22 +2,23 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { client } from '../contentfull/client';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import Loader from '../components/Loader'
 
 const SingleBlog = () => {
     const { id } = useParams();
     const [loading, setLoading] = useState(false);
-    const [blog, setBlog] = useState(null); // Initialize as null
+    const [blog, setBlog] = useState(null); 
 
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true);
             try {
                 const entries = await client.getEntries({ content_type: "blogPage" });
-                console.log('Fetched Entries:', entries); // Log the fetched entries
+                console.log('Fetched Entries:', entries); 
                 const selectedBlog = entries.items.find(item => item.fields.blogId ===parseInt(id, 10));
-                console.log('Selected Blog:', selectedBlog); // Log the selected blog
+                console.log('Selected Blog:', selectedBlog); 
                 if (selectedBlog) {
-                    setBlog(selectedBlog.fields); // Set only the fields of the selected blog
+                    setBlog(selectedBlog.fields); 
                 } else {
                     console.log(`No blog found with id: ${id}`);
                 }
@@ -28,10 +29,10 @@ const SingleBlog = () => {
             }
         };
         fetchData();
-    }, [id]); // Include 'id' in the dependency array
+    }, [id]); 
 
-    if (loading) return <p>Loading...</p>;
-    if (!blog) return <p>No blog found</p>; // Handle case where blog is not found
+    if (loading) return <Loader/>
+    if (!blog) return <p>No blog found</p>; 
 
     return (
         <div className="max-w-3xl mx-auto bg-white shadow-md rounded-lg overflow-hidden my-8">
@@ -44,7 +45,7 @@ const SingleBlog = () => {
             }
             <div className="px-6 py-4">
                 <div className="text-gray-700 text-base mb-4">
-                    {/* {blog.items.fields.description.content && documentToReactComponents(blog.content)} */}
+                   
                     {blog.description && documentToReactComponents(blog.description)}
 
                 </div>
