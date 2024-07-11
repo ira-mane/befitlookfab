@@ -1,105 +1,105 @@
-// import React from 'react'
-// import { tick } from '../assets/icons'
-// import { pricing } from '../exports/index'
-// import PriceGrid from '../components/PriceGrid'
-
-// const Pricing = () => {
-//   return (
-//     <section id='pricings' className='w-full bg-[#F8FFE8] flex-col items-start justify-center h-fit px-7 py-14
-//     lg:p-20 gap-5'>
-//       <h1 className='text-[#3B5704] font-bold text-6xl'>Pricing</h1>
-//       <div className='flex flex-col lg:flex-row gap-6 lg:gap-20 justify-between items-start w-full mt-5'>
-//         <p className='text-slate-950 text-2xl'>Explore our pricing list and discover our customizable options tailored to your specific needs, with pricing provided after consultation with our dietitian.We Offer three plan.</p>
-//         <div className='w-full lg:w-2/4 '>
-//           <ul className='flex flex-col justify-center items-start gap-4'>
-//             <li className='flex justify-center items-center gap-4 text-[21px] text-grey-800 '><span className='bg-[#3B5704] p-1 rounded-full fill-white'><img src={tick} alt="tick" width={30} height={30} /></span>Transform</li>
-//             <li className='flex justify-center items-center gap-4 text-[21px] text-grey-800 '><span className='bg-[#3B5704] p-1 rounded-full fill-white'><img src={tick} alt="tick" width={30} height={30} /></span>Medical</li>
-//             <li className='flex justify-center items-center gap-4 text-[21px] text-grey-800 '><span className='bg-[#3B5704] p-1 rounded-full fill-white'><img src={tick} alt="tick" width={30} height={30} /></span>Pro</li>
-//           </ul>
-//         </div>
-
-        
-//       </div>
-
-//       <div className='w-full flex justify-around items-center flex-wrap gap-10 mt-20'>
-//         {pricing.map((price) =>
-//           <div className='w-96' key={price.plan}>
-//              <PriceGrid {...price}/>
-//           </div>
-//         )}
-//       </div>
-//     </section>
-//   )
-// }
-
-// export default Pricing
 
 import React, { useState } from 'react';
-import { tick } from '../assets/icons';
-import { pricing } from '../exports/index';
-import PriceGrid from '../components/PriceGrid';
 
-const Pricing = () => {
-  const [selectedPlan, setSelectedPlan] = useState('Transform');
+function Pricing() {
+  const [selectedPlan, setSelectedPlan] = useState(null);
 
   const handlePlanClick = (plan) => {
     setSelectedPlan(plan);
   };
 
-  // Filter pricing plans based on selectedPlan
-  const filteredPricing = pricing.filter((price) => price.plan === selectedPlan);
+  const plans = {
+    pro: [
+      {
+        heading: '1 month',
+        description: 'Get Complimentary Green Tea ,Airpot Menu, Restaurant Guide ,Travel Guide, Maintenence Guide,Daily Updates,Recipe ,Exercise View',
+        price: 'Rs. 6000 /-',
+      },
+      {
+        heading: '2 Month',
+        description: 'Get personalized diet plans, regular check-ins, and a 30-minute consultation with our expert dietician.',
+        price: '$149/month',
+      },
+      {
+        heading: '3 Month',
+        description: 'Get personalized diet plans, regular check-ins, a 30-minute consultation, and a personalized meal planning service.',
+        price: '$249/month',
+      },
+      {
+        heading: 'Pro Premium Plan',
+        description: 'Get personalized diet plans, regular check-ins, a 30-minute consultation, and a personalized meal planning service.',
+        price: '$249/month',
+      }
+    ],
+    transform: [
+      {
+        heading: 'Transform Plan',
+        description: 'Get a customized diet plan to help you achieve your weight loss goals.',
+        price: '$49/month',
+      },
+      {
+        heading: 'Transform Plus Plan',
+        description: 'Get a customized diet plan and regular check-ins with our expert dietician to help you achieve your weight loss goals.',
+        price: '$99/month',
+      },
+      {
+        heading: 'Transform Premium Plan',
+        description: 'Get a customized diet plan, regular check-ins, and a personalized meal planning service to help you achieve your weight loss goals.',
+        price: '$199/month',
+      },
+      {
+        heading: 'Transform Premium Plan',
+        description: 'Get a customized diet plan, regular check-ins, and a personalized meal planning service to help you achieve your weight loss goals.',
+        price: '$199/month',
+      }
+    ],
+    medical: [
+      {
+        heading: 'Medical Plan',
+        description: 'Get a personalized diet plan tailored to your specific medical needs.',
+        price: '$199/month',
+      },
+      {
+        heading: 'Medical Plus Plan',
+        description: 'Get a personalized diet plan, regular check-ins, and a 30-minute consultation with our expert dietician tailored to your specific medical needs.',
+        price: '$299/month',
+      },
+      {
+        heading: 'Medical Premium Plan',
+        description: 'Get a personalized diet plan, regular check-ins, a 30-minute consultation, and a personalized meal planning service tailored to your specific medical needs.',
+        price: '$399/month',
+      },
+      {
+        heading: 'Medical Premium Plan',
+        description: 'Get a personalized diet plan, regular check-ins, a 30-minute consultation, and a personalized meal planning service tailored to your specific medical needs.',
+        price: '$399/month',
+      }
+    ],
+  };
 
   return (
-    <section id='pricings' className='w-full bg-[#F8FFE8] flex-col items-start justify-center py-14 px-4 lg:p-20 gap-5'>
-      <h1 className='text-[#3B5704] font-bold text-6xl'>Pricing</h1>
-      <div className='flex flex-col lg:flex-row gap-6 lg:gap-20 justify-between items-start w-full mt-5'>
-        <p className='text-slate-950 text-2xl'>
-          Explore our pricing list and discover our customizable options tailored to your specific needs, with pricing provided after consultation with our dietitian. We offer three plans.
-        </p>
-        <div className='w-full lg:w-2/4'>
-          <ul className='flex flex-col justify-center items-start gap-4'>
-            <li className={`flex justify-center items-center gap-4 text-[21px] ${selectedPlan === 'Transform' ? 'text-[#3B5704]' : 'text-grey-800'}`}>
-              <span className={`bg-[#3B5704] p-1 rounded-full fill-white ${selectedPlan === 'Transform' ? 'block' : 'hidden'}`}>
-                <img src={tick} alt="tick" width={30} height={30} />
-              </span>
-              <button onClick={() => handlePlanClick('Transform')} className='focus:outline-none'>
-                Transform
-              </button>
-            </li>
-            <li className={`flex justify-center items-center gap-4 text-[21px] ${selectedPlan === 'Medical' ? 'text-[#3B5704]' : 'text-grey-800'}`}>
-              <span className={`bg-[#3B5704] p-1 rounded-full fill-white ${selectedPlan === 'Medical' ? 'block' : 'hidden'}`}>
-                <img src={tick} alt="tick" width={30} height={30} />
-              </span>
-              <button onClick={() => handlePlanClick('Medical')} className='focus:outline-none'>
-                Medical
-              </button>
-            </li>
-            <li className={`flex justify-center items-center gap-4 text-[21px] ${selectedPlan === 'Pro' ? 'text-[#3B5704]' : 'text-grey-800'}`}>
-              <span className={`bg-[#3B5704] p-1 rounded-full fill-white ${selectedPlan === 'Pro' ? 'block' : 'hidden'}`}>
-                <img src={tick} alt="tick" width={30} height={30} />
-              </span>
-              <button onClick={() => handlePlanClick('Pro')} className='focus:outline-none'>
-                Pro
-              </button>
-            </li>
-          </ul>
-        </div>
+    <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
+      <h1 className="text-3xl font-bold mb-4">Pricing Plans</h1>
+      <div className="flex justify-center mb-4">
+        <button onClick={() => handlePlanClick('pro')} className="bg-[#3B5704] text-white px-4 lg:px-8 py-3 rounded-md text-[18px] hover:bg-black hover:text-white cursor-pointer">Pro</button>
+        <button onClick={() => handlePlanClick('transform')} className="bg-[#3B5704] text-white px-4 lg:px-8 py-3 rounded-md text-[18px] hover:bg-black hover:text-white cursor-pointer ml-2">Transform</button>
+        <button onClick={() => handlePlanClick('medical')} className="bg-[#3B5704] text-white px-4 lg:px-8 py-3 rounded-md text-[18px] hover:bg-black hover:text-white cursor-pointer ml-2">Medical</button>
       </div>
-
-      <div className='w-full flex justify-around items-center flex-wrap gap-10 mt-20'>
-        {pricing.map((price) => (
-          <PriceGrid
-            key={price.plan}
-            plan={price.plan}
-            price={price.price}
-            label={price.label}
-            about={price.about}
-            isVisible={price.plan === selectedPlan} // Pass isVisible prop based on selectedPlan
-          />
+      {selectedPlan && (
+        <div className="flex flex-wrap justify-center">
+        {plans[selectedPlan].map((plan, index) => (
+          <div key={index} className="w-full md:w-1/2 lg:w-1/4 p-4">
+            <div className="bg-white shadow-md rounded p-4 h-[50vh]">
+              <h2 className="text-2xl font-bold">{plan.heading}</h2>
+              <p className="text-gray-600">{plan.description}</p>
+              <p className="text-lg font-bold text-green-950">Price: {plan.price}</p>
+            </div>
+          </div>
         ))}
       </div>
-    </section>
+      )}
+    </div>
   );
-};
+}
 
 export default Pricing;
