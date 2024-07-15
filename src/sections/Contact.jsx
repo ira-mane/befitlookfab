@@ -40,10 +40,10 @@ const Contact = () => {
             <div id='logos' className='flex justify-center items-center gap-4 mt-10'>
               {/* <span className='bg-[#81b622] p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={fb} alt="fb icon" width={25} height={25} /></span> */}
               <a href="https://www.instagram.com/befitlookfab" target="_blank">
-                <span className='p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={insta} alt="instaicon" width={25} height={25} /></span>
+                <span className='p-3 rounded-full cursor-pointer '><img src={insta} alt="instaicon" width={30} height={30} /></span>
               </a>
               <a href="https://youtube.com/@befitlookfab9957?si=EHWaTdPcR6syqYZL" target="_blank">
-                <span className='p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={yt} alt="yticon" width={25} height={25} /></span>
+                <span className='p-3 rounded-full cursor-pointe'><img src={yt} alt="yticon" width={30} height={30} /></span>
               </a>
             </div>
           </div>

@@ -23,12 +23,20 @@ const Footer = () => {
                         Privacy Policy
                     </a>
                     <a
-                        href='#'
+                        href='https://www.instagram.com/befitlookfab'
                         target="_blank"
                         rel='noopener noreferrer'
-                        className="text-gray-800 text-base hover:text-green-800 transition duration-300"
+                        className="text-gray-800 text-base mr-6 hover:text-green-800 transition duration-300"
                     >
-                        Terms and Conditions
+                        Instagram
+                    </a>
+                    <a
+                        href='https://youtube.com/@befitlookfab9957?si=EHWaTdPcR6syqYZL'
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className="text-gray-800 text-base mr-6 hover:text-green-800 transition duration-300"
+                    >
+                        Youtube
                     </a>
                 </div>
             </div>
@@ -36,7 +44,7 @@ const Footer = () => {
             {/* Bottom Section */}
             <p className="text-center mt-6 text-gray-800 text-sm">
                 © {new Date().getFullYear()} All Rights Reserved. 
-                {/* Designed and Developed by{' '}
+                Designed and Developed by{' '}
                 <a
                     href="https://www.linkedin.com/in/ira-mane/"
                     target="_blank"
@@ -44,7 +52,7 @@ const Footer = () => {
                     className="text-green-800 hover:underline"
                 >
                     Ira | irammane14@gmail.com
-                </a> */}
+                </a>
             </p>
         </footer>
     );

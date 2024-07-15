@@ -12,74 +12,75 @@ function Pricing() {
     pro: [
       {
         heading: '1 month',
-        description: 'Get Complimentary Green Tea ,Airpot Menu, Restaurant Guide ,Travel Guide, Maintenence Guide,Daily Updates,Recipe ,Exercise View',
-        price: 'Rs. 6000 /-',
+        description: '1. Get Complimentary Green Tea 2. Airpot Menu 3. Restaurant Guide 4. Travel Guide 5. Maintenence Guide 6. Daily Updates 7. Recipe 8. Exercise View',
+        price: 'Rs. 6000/-',
       },
       {
         heading: '2 Month',
-        description: 'Get personalized diet plans, regular check-ins, and a 30-minute consultation with our expert dietician.',
-        price: '$149/month',
+        description: '1. Get Complimentary Green Tea 2. Airpot Menu 3. Restaurant Guide 4. Travel Guide 5. Maintenence Guide 6. Daily Updates 7. Recipe 8. Exercise View',
+        price: 'Rs. 10000/-',
       },
       {
         heading: '3 Month',
-        description: 'Get personalized diet plans, regular check-ins, a 30-minute consultation, and a personalized meal planning service.',
-        price: '$249/month',
+        description: '1. Get Complimentary Green Tea 2. Airpot Menu 3. Restaurant Guide 4. Travel Guide 5. Maintenence Guide 6. Daily Updates 7. Recipe 8. Exercise View',
+        price: 'Rs. 16000/-',
       },
       {
-        heading: 'Pro Premium Plan',
-        description: 'Get personalized diet plans, regular check-ins, a 30-minute consultation, and a personalized meal planning service.',
-        price: '$249/month',
+        heading: '6 Month',
+        description: '1. Get Complimentary Green Tea 2. Airpot Menu 3. Restaurant Guide 4. Travel Guide 5. Maintenence Guide 6. Daily Updates 7. Recipe 8. Exercise View',
+        price: 'Rs. 24000/-',
       }
     ],
     transform: [
       {
-        heading: 'Transform Plan',
-        description: 'Get a customized diet plan to help you achieve your weight loss goals.',
-        price: '$49/month',
+        heading: '1 Month',
+        description: 'Only Transformation, Weekly Follow-up',
+        price: 'Rs. 1200/-',
       },
       {
-        heading: 'Transform Plus Plan',
-        description: 'Get a customized diet plan and regular check-ins with our expert dietician to help you achieve your weight loss goals.',
-        price: '$99/month',
+        heading: '2 Month',
+        description: 'Only Transformation, Weekly Follow-up',
+        price: 'Rs. 1600/-',
       },
       {
-        heading: 'Transform Premium Plan',
-        description: 'Get a customized diet plan, regular check-ins, and a personalized meal planning service to help you achieve your weight loss goals.',
-        price: '$199/month',
+        heading: '3 Month',
+        description: 'Only Transformation, Weekly Follow-up',
+        price: 'Rs. 2500/-',
       },
       {
-        heading: 'Transform Premium Plan',
-        description: 'Get a customized diet plan, regular check-ins, and a personalized meal planning service to help you achieve your weight loss goals.',
-        price: '$199/month',
+        heading: '4 Month',
+        description: 'Only Transformation, Weekly Follow-up',
+        price: 'Rs. 5400/-',
       }
     ],
     medical: [
       {
-        heading: 'Medical Plan',
-        description: 'Get a personalized diet plan tailored to your specific medical needs.',
-        price: '$199/month',
+        heading: '1 Month',
+        description: 'Transformation+BMI (Working On Blood Report), Weekly follow-up and Recipe',
+        price: 'Rs. 1400/-',
       },
       {
-        heading: 'Medical Plus Plan',
-        description: 'Get a personalized diet plan, regular check-ins, and a 30-minute consultation with our expert dietician tailored to your specific medical needs.',
-        price: '$299/month',
+        heading: '2 Month',
+        description: 'Transformation+BMI (Working On Blood Report), Weekly follow-up and Recipe',
+        price: 'Rs. 1800/-',
       },
       {
-        heading: 'Medical Premium Plan',
-        description: 'Get a personalized diet plan, regular check-ins, a 30-minute consultation, and a personalized meal planning service tailored to your specific medical needs.',
-        price: '$399/month',
+        heading: '3 Month',
+        description: 'Transformation+BMI (Working On Blood Report), Weekly follow-up and Recipe',
+        price: 'Rs. 3500/-',
       },
       {
-        heading: 'Medical Premium Plan',
-        description: 'Get a personalized diet plan, regular check-ins, a 30-minute consultation, and a personalized meal planning service tailored to your specific medical needs.',
-        price: '$399/month',
+        heading: '6 Month',
+        description: 'Transformation+BMI (Working On Blood Report), Weekly follow-up and Recipe',
+        price: 'Rs. 7200/-',
       }
     ],
   };
 
   return (
     <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
-      <h1 className="text-3xl font-bold mb-4">Pricing Plans</h1>
+      <h1 className="text-3xl font-bold flex justify-center align-middle">Pricing Plans</h1>
+      <p className='m-5 ml-20 mr-20'>We offer three plans, each tailored to specific categories, allowing you to choose the one that best suits your needs. To learn more about each option, please click the "Pro" "Medical" and "Transform" buttons. The plans are organized based on duration in months for your convenience..</p>
       <div className="flex justify-center mb-4">
         <button onClick={() => handlePlanClick('pro')} className="bg-[#3B5704] text-white px-4 lg:px-8 py-3 rounded-md text-[18px] hover:bg-black hover:text-white cursor-pointer">Pro</button>
         <button onClick={() => handlePlanClick('transform')} className="bg-[#3B5704] text-white px-4 lg:px-8 py-3 rounded-md text-[18px] hover:bg-black hover:text-white cursor-pointer ml-2">Transform</button>
