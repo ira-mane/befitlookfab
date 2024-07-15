@@ -38,12 +38,16 @@ const Contact = () => {
             <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={call} alt="callicon" width={22} height={22} /></span>+91 99999 99999</div>
             <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>befitlookfab@gmail.com</div>
             <div id='logos' className='flex justify-center items-center gap-4 mt-10'>
-              <span className='bg-[#81b622] p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={fb} alt="fb icon" width={25} height={25} /></span>
-              <span className='bg-[#81b622] p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={insta} alt="instaicon" width={25} height={25} /></span>
-              <span className='bg-[#81b622] p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={yt} alt="yticon" width={25} height={25} /></span>
+              {/* <span className='bg-[#81b622] p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={fb} alt="fb icon" width={25} height={25} /></span> */}
+              <a href="https://www.instagram.com/befitlookfab" target="_blank">
+                <span className='p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={insta} alt="instaicon" width={25} height={25} /></span>
+              </a>
+              <a href="https://youtube.com/@befitlookfab9957?si=EHWaTdPcR6syqYZL" target="_blank">
+                <span className='p-3 rounded-full cursor-pointer hover:bg-green-100'><img src={yt} alt="yticon" width={25} height={25} /></span>
+              </a>
             </div>
           </div>
-         {/* form Section */}
+          {/* form Section */}
           <form className='flex flex-col justify-center items-center gap-2 w-full' onSubmit={onSubmit}>
             <input type='text' name='Name' placeholder='Enter Your Name' className='px-4 py-4 w-full border-2 rounded-lg text-[18px] bg-slate-100 focus:outline-none focus:border-[#3b5704]' required></input>
             <input type='email' name='Email' placeholder='Enter Your Mail' className='px-4 py-4 w-full border-2 rounded-lg text-[18px] bg-slate-100 focus:outline-none focus:border-[#3b5704]' required></input>
@@ -54,8 +58,8 @@ const Contact = () => {
 
         </div>
       </section>
-      
-     
+
+
     </>
   );
 };
