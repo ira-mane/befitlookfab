@@ -17,6 +17,10 @@ const faqs = [
   {
     title: "Do I need to exercise for weightloss?",
     desc: "We work on the 80/20 principle of nutrition science.For any weight loss/wellness/fitness program, diet plays 80% role, once you get that right you are bound to get results, if you can exercise and have time, we can recommend a suitable physical activity as well.In certain programs we recommend some physical activity, you should follow the advice of the mentor and she will give you options that will suit you.",
+  },
+  {
+    title: "How much weightloss do you guarantee ?",
+    desc: "In any health care program, anywhere in the world there will not be any guarantee. We promise that if you are dedicated, follow our diet plans & advice; RESULTS will follow.We have a very high success rate and have never seen a client not getting results if they follow our advice and are engaged with the mentor.Key is to engage with the mentor for any difficulty as she will do all in her power to make it easy and explain things to you. If that be the case, results are sure.",
   }
 ];
 
