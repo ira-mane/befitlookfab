@@ -15,7 +15,7 @@ const Footer = () => {
                 {/* Right Section */}
                 <div className="flex flex-wrap justify-center md:justify-end">
                     <a
-                        href="https://docs.google.com/document/d/1c7rMuX9hshuZFTSawrhCfu3Duk7zNKzXL0-ugAnN-v0/edit?usp=sharing"
+                        href="https://befitlookfab.tiiny.site/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-800 text-base mr-6 hover:text-green-800 transition duration-300"

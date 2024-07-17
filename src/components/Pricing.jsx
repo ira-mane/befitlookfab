@@ -13,7 +13,7 @@ function Pricing() {
       {
         heading: '1 month',
         description: '1. Get Complimentary Green Tea',
-        desc1:'2. Airpot Menu',
+        desc1:'2. Airport Menu',
         desc2:'3. Restaurant Guide and Travel Guide',
         desc3: '4. Maintenence Guide, daily Update and Recipe, Exercise Video',
         
@@ -22,7 +22,7 @@ function Pricing() {
       {
         heading: '2 Month',
         description: '1. Get Complimentary Green Tea',
-        desc1:'2. Airpot Menu',
+        desc1:'2. Airport Menu',
         desc2:'3. Restaurant Guide and Travel Guide',
         desc3: '4. Maintenence Guide, daily Update, Recipe, Exercise Video',
         
@@ -31,7 +31,7 @@ function Pricing() {
       {
         heading: '3 Month',
         description: '1. Get Complimentary Green Tea',
-        desc1:'2. Airpot Menu',
+        desc1:'2. Airport Menu',
         desc2:'3. Restaurant Guide and Travel Guide',
         desc3: '4. Maintenence Guide, daily Update and Recipe, Exercise Video',
         
@@ -40,7 +40,7 @@ function Pricing() {
       {
         heading: '6 Month',
         description: '1. Get Complimentary Green Tea',
-        desc1:'2. Airpot Menu',
+        desc1:'2. Airport Menu',
         desc2:'3. Restaurant Guide and Travel Guide',
         desc3: '4.Maintenence Guide, daily Update and Recipe',
         desc4:'5.Exercie Video',

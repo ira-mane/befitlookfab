@@ -7,6 +7,10 @@ const faqs = [
     desc: "At BFLB, we have personalised online diet programs for weight loss & food caused diseases such as Thyroid, PCOS, Diabetes, Uric Acid, Liver & Cancer. Here, we believe in eating smart, not right. Along with diet charts, clients learn to manage their weight & condition for life",
   },
   {
+    title: "How to book consultation appointment?",
+    desc: "You can book a appointment directly by clicking on Booking button and filling the form. If that doesn't work then you can either mail us at befitlookfab@gmail.com or fill contact form on the website.",
+  },
+  {
     title: "How often does the diet change?",
     desc: "One diet plan is to be followed for 10 days, during this period if you have any queries or issues you can tell your mentor on chat section provided and she will address it within 8 working hours.So, in a 30 day’s Program you get 3 Diets, 60 day’s Program you get 6 new diets and in 90 Day’s program you get 9 new Diets.",
   },
