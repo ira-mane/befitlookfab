@@ -12,20 +12,20 @@ function About() {
         <div className="container mx-auto p-4 pt-20">
           <h1 className="text-4xl font-bold text-black justify-center flex align-middle mb-10">About Us</h1>
         </div>
-      </div>
+      </div> {/* Add closing tag */}
 
       {/* Centered divs for Vision, Mission, and Our Story */}
       <div className="flex justify-center">
         <div className="bg-white py-10 p-10 w-1/3 mr-4">
-          <h2 className="text-3xl font-bold text-#3B5704">Our Vision</h2>
+          <h2 className="text-3xl font-bold text-[#3B5704]">Our Vision</h2>
           <p className="text-lg text-black pt-5">Our Vision is to transform lives through nutrition. I want to equip you with the knowledge and tools necessary for long-term weight loss and overall wellness. Let's work together to make your health goals a reality.</p>
         </div>
         <div className="bg-white py-10 p-10 w-1/3 mr-4">
-          <h2 className="text-3xl font-bold text-#3B5704">Our Mission</h2>
+          <h2 className="text-3xl font-bold text-[#3B5704]">Our Mission</h2>
           <p className="text-lg text-black pt-5">Empower individuals to reach weight loss goals with personalized nutrition plans and continuous support.</p>
         </div>
         <div className="bg-white py-10 p-10 w-1/3">
-          <h2 className="text-3xl font-bold text-#3B5704">Our Story</h2>
+          <h2 className="text-3xl font-bold text-[#3B5704]">Our Story</h2>
           <p className="text-lg text-black pt-5"> I’m your dietitian with a background in Food Science (BSc) and a post-graduation in Sports Nutrition. Having worked in gyms, hospitals, personal clinics, and wellness companies, my aim at our weight loss business is to assist you in achieving your goals with personalized nutrition plans and expert guidance.</p>
         </div>
       </div>

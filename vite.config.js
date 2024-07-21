@@ -10,15 +10,16 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          
+        manualChunks: () => {
+          return {
+            vendor: ['react', 'react-dom'],
+          };
         },
       },
     },
     chunkSizeWarningLimit: 1600
   },
-  plugins: [react()],
+  plugins: [react()]
 });
 
 
