@@ -12,7 +12,6 @@ const Booking = () => {
         src="https://form.jotform.com/241925105612449"
         frameBorder="0"
         className="min-w-full max-w-full h-[720px] border-none"
-        // scrolling="no"
       />
       <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js" />
       <script>
@@ -26,3 +25,31 @@ export default Booking;
 
 
 
+// import React, { Suspense } from 'react';
+
+// const Booking = () => {
+//   const Iframe = React.lazy(() => import('./IframeComponent'));
+
+//   return (
+//     <div className="flex justify-center h-screen">
+//       <Suspense fallback={<div>Loading...</div>}>
+//         <Iframe />
+//       </Suspense>
+//     </div>
+//   );
+// };
+
+// const IframeComponent = () => (
+//   <iframe
+//     id="JotFormIFrame-241925105612449"
+//     title="Appointment Booking Form"
+//     onLoad={() => window.parent.scrollTo(0, 0)}
+//     allowTransparency={true}
+//     allow="geolocation; microphone; camera; fullscreen"
+//     src="https://form.jotform.com/241925105612449"
+//     frameBorder="0"
+//     className="min-w-full max-w-full h-[720px] border-none"
+//   />
+// );
+
+// export default Booking;
