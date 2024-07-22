@@ -73,7 +73,7 @@ function Pricing() {
         price: 'Rs. 2500/-',
       },
       {
-        heading: '4 Month',
+        heading: '6 Month',
         description: '1. Only Transformation',
         desc1:'2. Weekly Follow-up',
         desc2:'3. Either Weight Gain or Weight Loss Transformation',
