@@ -21,7 +21,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='relative h-full flex justify-center item-center w-1/2 px-5 py-20 object-cover lg:w-1/2 md:w-1/2 sm:w-full'>
-                    <img src={Heroimg} alt="Yoga Lady/Healthy Diet/Nutrition" width={700} height={600} className='lg:w-full md:w-full sm:w-full' />
+                    <img src={Heroimg} alt="Yoga Lady/Healthy Diet/Nutrition" width={250} height={800} className='lg:w-full md:w-full sm:w-full' />
                 </div>
             </section>
             <Value />
