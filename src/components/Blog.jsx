@@ -2,7 +2,7 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { client } from '../contentfull/client';
 
-// const Loader = React.lazy(() => import('../components/Loader'));
+const Loader = React.lazy(() => import('../components/Loader'));
 
 const BlogPage = () => {
   const [loading, setLoading] = useState(false);
