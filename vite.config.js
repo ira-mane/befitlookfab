@@ -1,27 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { chunkSplitPlugin } from 'vite-plugin-chunk-split';
 
 export default defineConfig({
-  plugins: [
-    chunkSplitPlugin({
-      strategy: 'single-vendor',
-      customChunk: (args) => {
-        let { file, id, moduleId, root } = args;
-        if (file.startsWith('src/pages/')) {
-          file = file.substring(4);
-          file = file.replace(/\.[^.$]+$/, '');
-          return file;
-        }
-        return null;
-      },
-      customSplitting: {
-        'react-vendor': ['react', 'react-dom'],
-        'utils': [/src\/utils/],
-      },
-    }),
-    react(),
-  ],
+  plugins: [react], // You need to include the react plugin in the plugins array
   build: {
     rollupOptions: {
       output: {
