@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography } from "@material-tailwind/react";
+// import { Typography } from "@material-tailwind/react";
 
 const faqs = [
   {
@@ -35,7 +35,7 @@ export function Faqs4() {
     <section className="px-8 py-20">
       <div className="container mx-auto">
         <div className="mb-14 text-center ">
-          <Typography
+          {/* <Typography
             variant="h1"
             color="blue-gray"
             className="mb-4 text-4xl!leading-snug lg:text-[40px]"
@@ -46,23 +46,23 @@ export function Faqs4() {
             className="mx-auto font-normal text-[18px]!text-gray-500 lg:max-w-3xl"
           >
            Here are all the questions we frequently receive. If you have any further inquiries, please don't hesitate to contact us—we're happy to help!
-          </Typography>
+          </Typography> */}
         </div>
         <div className="max-w-3xl mx-auto grid gap-10">
           {faqs.map(({ title, desc }, index) => (
             <div key={index}>
-              <Typography
+              {/* <Typography */}
                 color="blue-gray"
                 className="pb-6 text-[20px] font-bold cursor-pointer"
                 onClick={() => setActiveIndex(activeIndex === index ? null : index)}
-              >
+              
                 {title}
-              </Typography>
+              {/* </Typography> */}
               {activeIndex === index && (
                 <div className="border-t border-gray-200 pt-4">
-                  <Typography className="font-normal!text-gray-500">
+                  {/* <Typography className="font-normal!text-gray-500"> */}
                     {desc}
-                  </Typography>
+                  {/* </Typography> */}
                 </div>
               )}
             </div>
