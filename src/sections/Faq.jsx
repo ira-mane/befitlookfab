@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Typography } from "@material-tailwind/react";
 
 const faqs = [
   {
@@ -32,37 +31,23 @@ export function Faqs4() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <section className="px-8 py-20">
-      <div className="container mx-auto">
-        <div className="mb-14 text-center ">
-          {/* <Typography
-            variant="h1"
-            color="blue-gray"
-            className="mb-4 text-4xl!leading-snug lg:text-[40px]"
-          >
-            Frequently asked questions
-          </Typography>
-          <Typography
-            className="mx-auto font-normal text-[18px]!text-gray-500 lg:max-w-3xl"
-          >
-           Here are all the questions we frequently receive. If you have any further inquiries, please don't hesitate to contact us—we're happy to help!
-          </Typography> */}
+    <section className="px-8 py-20 bg-white">
+      <div className="container mx-auto max-w-md">
+        <div className="mb-14 text-center">
+          <h1 className="text-4xl font-bold mb-4">Frequently asked questions</h1>
         </div>
-        <div className="max-w-3xl mx-auto grid gap-10">
+        <div className="grid gap-10">
           {faqs.map(({ title, desc }, index) => (
             <div key={index}>
-              {/* <Typography */}
-                color="blue-gray"
-                className="pb-6 text-[20px] font-bold cursor-pointer"
+              <h2
+                className="text-2xl font-bold cursor-pointer mb-4"
                 onClick={() => setActiveIndex(activeIndex === index ? null : index)}
-              
+              >
                 {title}
-              {/* </Typography> */}
+              </h2>
               {activeIndex === index && (
                 <div className="border-t border-gray-200 pt-4">
-                  {/* <Typography className="font-normal!text-gray-500"> */}
-                    {desc}
-                  {/* </Typography> */}
+                  <p className="text-gray-500">{desc}</p>
                 </div>
               )}
             </div>

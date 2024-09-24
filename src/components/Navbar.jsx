@@ -45,17 +45,17 @@ const Navbar = () => {
                         <NavLink to='/about' activeClassName='font-bold'>
                             About
                         </NavLink>
+                    </li>   <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
+                        <NavLink to='/blog' activeClassName='font-bold'>
+                            Blog
+                        </NavLink>
                     </li>
                     <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
                         <NavLink to='/pricing' activeClassName='font-bold'>
                             Pricing
                         </NavLink>
                     </li>
-                    <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
-                        <NavLink to='/blog' activeClassName='font-bold'>
-                            Blog
-                        </NavLink>
-                    </li>
+                 
                     <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
                         <NavLink to='/bmi' activeClassName='font-bold'>
                             BMI
@@ -66,11 +66,11 @@ const Navbar = () => {
                             Contact
                         </NavLink>
                     </li>
-                    <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
+                    {/* <li className='text-lg cursor-pointer px-5 py-2 hover:bg-[#3B5704] hover:text-white active:text-white'>
                         <NavLink to='/faq' activeClassName='font-bold'>
                             FAQs
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li className='bg-[#3B5704] text-white px-4 lg:px-8 py-3 rounded-md text-[18px] hover:bg-black hover:text-white cursor-pointer'>
                         <NavLink to='/booking'>Booking</NavLink>
                     </li>
