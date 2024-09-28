@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Section */}
-            <p className="text-center mt-6 text-gray-800 text-sm">
+            {/* <p className="text-center mt-6 text-gray-800 text-sm">
                 © {new Date().getFullYear()} All Rights Reserved.
                 Designed and Developed by{' '}
                 <a
@@ -53,7 +53,7 @@ const Footer = () => {
                 >
                     Ira | irammane14@gmail.com
                 </a>
-            </p>
+            </p> */}
         </footer>
     );
 };
