@@ -43,7 +43,7 @@ const Footer = () => {
 
             {/* Bottom Section */}
             <p className="text-center mt-6 text-gray-800 text-sm">
-                © {new Date().getFullYear()} All Rights Reserved. 
+                © {new Date().getFullYear()} All Rights Reserved.
                 Designed and Developed by{' '}
                 <a
                     href="https://www.linkedin.com/in/ira-mane/"

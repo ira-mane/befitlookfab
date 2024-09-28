@@ -31,30 +31,30 @@ export function Faqs4() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <section className="px-8 py-20 bg-white">
-      <div className="container mx-auto max-w-md">
-        <div className="mb-14 text-center">
-          <h1 className="text-4xl font-bold mb-4">Frequently asked questions</h1>
-        </div>
-        <div className="grid gap-10">
-          {faqs.map(({ title, desc }, index) => (
-            <div key={index}>
-              <h2
-                className="text-2xl font-bold cursor-pointer mb-4"
-                onClick={() => setActiveIndex(activeIndex === index ? null : index)}
-              >
-                {title}
-              </h2>
-              {activeIndex === index && (
-                <div className="border-t border-gray-200 pt-4">
-                  <p className="text-gray-500">{desc}</p>
-                </div>
-              )}
+    <section className="px-8 py-20 bg-white md:px-12 lg:px-16 xl:px-20">
+  <div className="container mx-auto max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
+    <div className="mb-14 text-center">
+      <h1 className="text-4xl font-bold mb-4">Frequently asked questions</h1>
+    </div>
+    <div className="grid gap-10 md:gap-12 lg:gap-16 xl:gap-20">
+      {faqs.map(({ title, desc }, index) => (
+        <div key={index}>
+          <h2
+            className="text-2xl font-bold cursor-pointer mb-4"
+            onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+          >
+            {title}
+          </h2>
+          {activeIndex === index && (
+            <div className="border-t border-gray-200 pt-4">
+              <p className="text-gray-500">{desc}</p>
             </div>
-          ))}
+          )}
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+  </div>
+</section>
   );
 }
 

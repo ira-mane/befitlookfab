@@ -13,69 +13,69 @@ function Pricing() {
       {
         heading: '1 month',
         description: 'Customized Meal Plans & Nutrition Deficiency Correction',
-        desc1:'2. Medical Reports & Restaurant Guides',
-        desc2:'3. Travel Guides & Complimentary Green Tea Plan',
-        desc3: '4. Airport Menu Extension',
+        desc1:'Medical Reports & Restaurant Guides',
+        desc2:'Travel Guides & Complimentary Green Tea Plan',
+        desc3: 'Airport Menu Extension',
         
         price: 'Rs. 6000/-',
       },
       {
         heading: '2 Month',
         description: 'Customized Meal Plans & Nutrition Deficiency Correction',
-        desc1:'2. Medical Reports & Restaurant Guides',
-        desc2:'3. Travel Guides & Complimentary Green Tea Plan',
-        desc3: '4. Airport Menu Extension',
+        desc1:'Medical Reports & Restaurant Guides',
+        desc2:'Travel Guides & Complimentary Green Tea Plan',
+        desc3: 'Airport Menu Extension',
         
         price: 'Rs. 10000/-',
       },
       {
         heading: '3 Month',
         description: 'Customized Meal Plans & Nutrition Deficiency Correction',
-        desc1:'2. Medical Reports & Restaurant Guides',
-        desc2:'3. Travel Guides & Complimentary Green Tea Plan',
-        desc3: '4. Airport Menu Extension',
+        desc1:'Medical Reports & Restaurant Guides',
+        desc2:'Travel Guides & Complimentary Green Tea Plan',
+        desc3: 'Airport Menu Extension',
         
         price: 'Rs. 14400/-',
       },
       {
         heading: '6 Month',
         description: 'Customized Meal Plans & Nutrition Deficiency Correction',
-        desc1:'2. Medical Reports & Restaurant Guides',
-        desc2:'3. Travel Guides & Complimentary Green Tea Plan',
-        desc3: '4. Airport Menu Extension',
+        desc1:'Medical Reports & Restaurant Guides',
+        desc2:'Travel Guides & Complimentary Green Tea Plan',
+        desc3: 'Airport Menu Extension',
         price: 'Rs. 24000/-',
       }
     ],
     transform: [
       {
         heading: '1 Month',
-        description: '1. Personalized Meal Plans',
-        desc1:'2.Nutritional Counseling',
-        desc2:'3. Progress Tracking',
+        description: 'Personalized Meal Plans',
+        desc1:'Nutritional Counseling',
+        desc2:'Progress Tracking',
         desc3: 'This is our basic plan',
         price: 'Rs. 1500/-',
       },
       {
         heading: '2 Month',
-        description: '1. Personalized Meal Plans',
-        desc1:'2.Nutritional Counseling',
-        desc2:'3. Progress Tracking',
+        description: 'Personalized Meal Plans',
+        desc1:'Nutritional Counseling',
+        desc2:'Progress Tracking',
         desc3: 'This is our basic plan',
         price: 'Rs. 2700/-',
       },
       {
         heading: '3 Month',
-        description: '1. Personalized Meal Plans',
-        desc1:'2.Nutritional Counseling',
-        desc2:'3. Progress Tracking',
+        description: 'Personalized Meal Plans',
+        desc1:'Nutritional Counseling',
+        desc2:'Progress Tracking',
         desc3: 'This is our basic plan',
         price: 'Rs. 3750/-',
       },
       {
         heading: '6 Month',
-        description: '1. Personalized Meal Plans',
-        desc1:'2.Nutritional Counseling',
-        desc2:'3. Progress Tracking',
+        description: 'Personalized Meal Plans',
+        desc1:'Nutritional Counseling',
+        desc2:'Progress Tracking',
         desc3: 'This is our basic plan',
         price: 'Rs. 5400/-',
       }
@@ -84,33 +84,33 @@ function Pricing() {
       {
         heading: '1 Month',
         description: 'Personalized Meal Plans & Nutritional Counseling:',
-        desc1:'2. Progress Tracking & Medical Therapy',
-        desc2:'3. Lifestyle Coaching and BMI checking',
-        desc3: '4. Nutrition Deficiency Correction',
+        desc1:'Progress Tracking & Medical Therapy',
+        desc2:'Lifestyle Coaching and BMI checking',
+        desc3: 'Nutrition Deficiency Correction',
         price: 'Rs. 1400/-',
       },
       {
         heading: '2 Month',
         description: 'Personalized Meal Plans & Nutritional Counseling:',
-        desc1:'2. Progress Tracking & Medical Therapy',
-        desc2:'3. Lifestyle Coaching and BMI checking',
-        desc3: '4. Nutrition Deficiency Correction',
+        desc1:'Progress Tracking & Medical Therapy',
+        desc2:'Lifestyle Coaching and BMI checking',
+        desc3: 'Nutrition Deficiency Correction',
         price: 'Rs. 1800/-',
       },
       {
         heading: '3 Month',
         description: 'Personalized Meal Plans & Nutritional Counseling:',
-        desc1:'2. Progress Tracking & Medical Therapy',
-        desc2:'3. Lifestyle Coaching and BMI checking',
-        desc3: '4. Nutrition Deficiency Correction',
+        desc1:'Progress Tracking & Medical Therapy',
+        desc2:'Lifestyle Coaching and BMI checking',
+        desc3: 'Nutrition Deficiency Correction',
         price: 'Rs. 3500/-',
       },
       {
         heading: '6 Month',
         description: 'Personalized Meal Plans & Nutritional Counseling:',
-        desc1:'2. Progress Tracking & Medical Therapy',
-        desc2:'3. Lifestyle Coaching and BMI checking',
-        desc3: '4. Nutrition Deficiency Correction',
+        desc1:'Progress Tracking & Medical Therapy',
+        desc2:'Lifestyle Coaching and BMI checking',
+        desc3: 'Nutrition Deficiency Correction',
         price: 'Rs. 7200/-',
       }
     ],
@@ -136,7 +136,7 @@ function Pricing() {
               <p className="text-black">✔ {plan.desc2}</p>
               <p className="text-black">✔ {plan.desc3}</p>
               
-              <p className="text-lg font-bold text-green-950">Price: {plan.price}</p>
+              <p className="text-2xl font-bold text-green-800">Price: {plan.price}</p>
             </div>
           </div>
         ))}

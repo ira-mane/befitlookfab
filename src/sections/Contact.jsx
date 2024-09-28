@@ -37,17 +37,17 @@ const Contact = () => {
             <h1 className='text-[#3b5704] font-bold text-[35px]'>Contact Info</h1>
             <div id='phone1' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'>
 
-              <span className='bg-[#81b622] p-3 rounded-full'>
+              <span className='bg-[#d2d4cd] p-3 rounded-full'>
                 <img src={call} alt="callicon" width={22} height={22} />
               </span>
               +91 98670 89284
 
             </div>
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>befitlookfab@gmail.com</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#d2d4cd] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>befitlookfab@gmail.com</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Addressss</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#d2d4cd] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Adress</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#81b622] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Timings</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#d2d4cd] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Timings</div>
 
           </div>
           {/* form Section */}
