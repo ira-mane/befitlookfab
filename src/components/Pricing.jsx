@@ -129,14 +129,14 @@ function Pricing() {
         <div className="flex flex-wrap justify-center">
         {plans[selectedPlan].map((plan, index) => (
           <div key={index} className="w-full md:w-1/2 lg:w-1/4 p-4">
-            <div className="shadow-md rounded p-4 h-[50vh]">
-              <h2 className="text-2xl font-bold">{plan.heading}</h2>
-              <p className="text-black">✔ {plan.description}</p>
-              <p className="text-black">✔ {plan.desc1}</p>
-              <p className="text-black">✔ {plan.desc2}</p>
-              <p className="text-black">✔ {plan.desc3}</p>
+            <div className="shadow-md rounded p-4 h-[50vh] bg-white">
+              <h2 className="text-2xl font-bold mb-5">{plan.heading}</h2>
+              <p className="text-black font-bold">✔ {plan.description}</p>
+              <p className="text-black font-bold">✔ {plan.desc1}</p>
+              <p className="text-black font-bold">✔ {plan.desc2}</p>
+              <p className="text-black font-bold">✔ {plan.desc3}</p>
               
-              <p className="text-2xl font-bold text-green-800">Price: {plan.price}</p>
+              <p className="text-2xl font-bold text-green-800 mt-10">Price: {plan.price}</p>
             </div>
           </div>
         ))}

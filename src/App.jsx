@@ -4,7 +4,6 @@ import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Header from './sections/Header';
 import Hero from './sections/Hero';
-// import Faq from './sections/Faq';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Booking from './components/Booking';
 import Pricing from './components/Pricing';

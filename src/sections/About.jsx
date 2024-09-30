@@ -12,7 +12,7 @@ function About() {
         <div className="container mx-auto p-4 pt-20">
           <h1 className="text-4xl font-bold text-black justify-center flex align-middle mb-10">About Us</h1>
         </div>
-      </div> {/* Add closing tag */}
+      </div> 
 
       {/* Centered divs for Vision, Mission, and Our Story */}
       <div className="flex justify-center">
@@ -36,6 +36,8 @@ function About() {
         <img src={nutrition} alt="Nutition" className="py-10 p-10 w-1/3 mr-4" />
         <img src={dietician} alt="Dieitician" className="py-10 p-10 w-1/3" />
       </div>
+  
+  
     </div>
   );
 }

@@ -23,7 +23,6 @@ function BMICalculator() {
 
   return (
     <div className="h-[80vh] flex justify-center items-center bg-[#EDFFCC]">
-      {/* <div className="bg-white p-8 rounded shadow-md w-80"> */}
       <div className="bg-white p-8 rounded shadow-md w-full md:w-1/2 lg:w-2/3 xl:w-3/4">
         <h1 className="text-xl font-bold text-black mb-4">Calculate Your Body Mass Index (BMI) Now</h1>
         <p className="text-gray-700 mb-4">Body mass index (BMI) is a person’s weight in kilograms divided by the square of height in meters. BMI is an inexpensive and easy screening method for weight category—underweight, healthy weight, overweight, and obesity.</p>

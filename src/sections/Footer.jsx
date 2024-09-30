@@ -54,6 +54,7 @@ const Footer = () => {
                     Ira | irammane14@gmail.com
                 </a>
             </p> */}
+            
         </footer>
     );
 };

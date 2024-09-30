@@ -41,7 +41,6 @@ const BlogPage = () => {
                     <h2 className="text-xl font-bold text-gray-800 mb-2">{item.fields.titleOfBlog}</h2>
                     <p className="text-gray-700">{item.fields.displayTitle}</p>
                     <Link to={`/blog/${item.fields.blogId}`}>
-                    {/* <Link to={`/blog?blogId=${item.fields.blogId}`}> */}
                       <button className="mt-4 inline-block bg-[#3B5704] hover:bg-slate-400 text-white font-bold py-2 px-4 rounded">
                         Read More
                       </button>
