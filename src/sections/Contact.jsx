@@ -45,9 +45,9 @@ const Contact = () => {
             </div>
             <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>befitlookfab@gmail.com</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Adress</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Online Consultation</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Timings</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>10:00am to 6:00pm </div>
 
           </div>
           {/* form Section */}

@@ -53,7 +53,7 @@ function Pricing() {
         desc1:'Nutritional Counseling',
         desc2:'Progress Tracking',
         desc3: 'This is our basic plan',
-        price: 'Rs. 1500/-',
+        price: 'Rs. 1200/-',
       },
       {
         heading: '2 Month',

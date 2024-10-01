@@ -9,7 +9,7 @@ const Header = () => {
       <header className='bg-[#3B5704] font-light'>
         <NavLink to='/booking'>
           <Marquee pauseOnHover>
-            <h1 className='text-white text-[18px] text-center'>Book Your Appointment Now at 📞 +91 98670 89284 ! ⌚ Making Life Happy and Healthy with BeFit-LookFab by Dietician Shumaila. 🥗</h1>
+            <h1 className='text-white text-[18px] text-center'>Book Your Appointment Now at 📞 +91 98670 89284 ! ⌚ Making Life Happy and Healthy with BeFitLookFab by Dietitian Shumaila. 🥗</h1>
           </Marquee>
         </NavLink>
       </header>
