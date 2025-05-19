@@ -47,7 +47,7 @@ const Contact = () => {
 
             <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={map} alt="smsmail" width={22} height={22} /></span>Andheri-Ghatkopar Link Rd,Opp. Noori Masjid, Lokmanya Tilak Nagar, Saki Naka, Mumbai 400072</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Mon to Fri-9am to 5am</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Mon to Fri-9am to 5pm</div>
 
           </div>
           {/* form Section */}

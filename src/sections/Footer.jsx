@@ -45,14 +45,9 @@ const Footer = () => {
             <p className="text-center mt-6 text-gray-800 text-sm">
                 © {new Date().getFullYear()} All Rights Reserved Befitlookfab.
                 Designed and Developed by{' '}
-                <a
-                    href="https://www.linkedin.com/in/ira-mane/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-800 hover:underline"
-                >
-                    Ira | irammane14@gmail.com
-                </a>
+            
+                    Ira | digi.business1410@gmail.com
+            
             </p>
             
         </footer>

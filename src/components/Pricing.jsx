@@ -29,11 +29,13 @@ function Pricing() {
   ];
 
   const inclusions = [
-    'Monthly personalized diet charts (updated every 30 days)',
+    'Monthly personalized diet charts as per medical report',
     'Weekly WhatsApp check-ins (Monday–Friday)',
     'Supplement & habit suggestions (no brand push)',
-    'Diet support for PCOS, thyroid, gut issues, hormonal balance',
-    'Ongoing access to expert guidance via WhatsApp',
+    'Complementary Green tea',
+    'Tradional recipes',
+    'Weight loss and Inch tracker',
+    'Travel guide'
   ];
 
   return (

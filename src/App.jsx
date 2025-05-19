@@ -10,6 +10,7 @@ import Pricing from './components/Pricing';
 import Blog from './components/Blog';
 import Bmi from './components/Bmi';
 import SingleBlog from './components/SingleBlog';
+import WhatsAppWidget from './components/WhatsAppWidget';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path='/blog' element={<Blog />}></Route>
           <Route path='*' element={<h1>Page Not Found</h1>}></Route>
         </Routes>
+        <WhatsAppWidget />
         <Footer />
       </React.Fragment>
     </BrowserRouter>
