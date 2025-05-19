@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    title: "What is BeFitLookFab all about?",
-    desc: "At BFLB, we have personalised online diet programs for weight management & food caused diseases such as Thyroid, PCOS, Diabetes, Uric Acid, Liver & Cancer. Here, we believe in eating smart and right. Along with diet charts, clients learn to manage their weight & lifestyle",
+    title: "What is Diet Fusion all about?",
+    desc: "At Diet Fusion, we have personalised online diet programs for weight management & food caused diseases such as Thyroid, PCOS, Diabetes, Uric Acid, Liver & Cancer. Here, we believe in eating smart and right. Along with diet charts, clients learn to manage their weight & lifestyle",
   },
   {
     title: "How to book consultation appointment?",

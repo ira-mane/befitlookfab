@@ -7,7 +7,7 @@ const Value = () => {
     <div className="container mx-auto p-4 md:p-8 lg:p-12">
       <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap-4 md:gap-8 lg:gap-12">
         <div className="col-span-2 md:col-span-2 lg:col-span-2 bg-[#EDFFCC] p-4 md:p-6 lg:p-8 rounded-lg shadow-md">
-          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-[#3B5704] mb-2">BeFitLookFab</h2>
+          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-[#3B5704] mb-2">Diet Fusion</h2>
           <p className="text-gray-700 text-lg md:text-xl lg:text-2xl text-justify">
             We empower individuals to make healthy choices by educating them about nutrition and providing them with the tools and resources they need to succeed.
   

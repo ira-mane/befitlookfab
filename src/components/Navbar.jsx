@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav className='w-full bg-white text-[#3B5704] flex justify-between items-center px-8 py-5 lg:px-16 sticky top-0 z-40'>
             <NavLink to='/' className='flex gap-3'>
-                <h1 className='text-[#3B5704] font-bold text-3xl'>BeFitLookFab</h1>
+                <h1 className='text-[#3B5704] font-bold text-3xl'>Diet Fusion</h1>
             </NavLink>
 
             <div className='block lg:hidden'>
