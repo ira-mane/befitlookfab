@@ -15,7 +15,10 @@ const Hero = () => {
             <a href='/booking'>
               <button className='bg-[#3B5704] text-white px-3 lg:px-6 py-2 rounded-md text-lg lg:text-lg md:text-lg sm:text-lg hover:bg-black hover:text-white cursor-pointer'>Register Now</button>
             </a>
-            <a href="https://www.instagram.com/befitlookfab" target="_blank" rel="noopener noreferrer">
+            <a href='https://www.swiggy.com/city/mumbai/diet-fusion-marol-sakinaka-rest1084601'>
+              <button className='bg-[#3B5704] text-white px-3 lg:px-6 py-2 rounded-md text-lg lg:text-lg md:text-lg sm:text-lg hover:bg-black hover:text-white cursor-pointer'>Order Now</button>
+            </a>
+            <a href="https://www.instagram.com/dietfusion_official/?hl=en" target="_blank" rel="noopener noreferrer">
               <button className='border-2 border-[#3B5704] text-[#3b5704] text-lg lg:text-lg md:text-lg sm:text-lg rounded-md px-3 lg:px-6 py-2 hover:border-black hover:text-black cursor-pointer'>Watch Video</button>
             </a>
           </div>

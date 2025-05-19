@@ -1,5 +1,5 @@
 import React from 'react';
-import { call, sms, fb, insta, yt } from '../assets/icons';
+import { call, sms, fb, insta, yt, map } from '../assets/icons';
 import Swal from 'sweetalert2'
 
 const Contact = () => {
@@ -40,14 +40,14 @@ const Contact = () => {
               <span className='bg-[#bfd791] p-3 rounded-full'>
                 <img src={call} alt="callicon" width={22} height={22} />
               </span>
-              +91 98670 89284
+              For Diet Consultation - 9867089284 
 
             </div>
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>befitlookfab@gmail.com</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>For Offline order - 8787273346</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Online Consultation</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={map} alt="smsmail" width={22} height={22} /></span>Andheri-Ghatkopar Link Rd,Opp. Noori Masjid, Lokmanya Tilak Nagar, Saki Naka, Mumbai 400072</div>
 
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>10:00am to 6:00pm </div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>Mon to Fri-9am to 5am</div>
 
           </div>
           {/* form Section */}
