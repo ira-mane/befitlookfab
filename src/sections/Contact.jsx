@@ -43,7 +43,7 @@ const Contact = () => {
               For Diet Consultation - 9867089284 
 
             </div>
-            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>For Offline order - 8787273346</div>
+            <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={sms} alt="smsmail" width={22} height={22} /></span>For Offline order - +91 90044 50603</div>
 
             <div id='phone' className='flex justify-center items-center gap-4 text-lg font-semibold text-gray-600'><span className='bg-[#bfd791] p-3 rounded-full'><img src={map} alt="smsmail" width={22} height={22} /></span>Andheri-Ghatkopar Link Rd,Opp. Noori Masjid, Lokmanya Tilak Nagar, Saki Naka, Mumbai 400072</div>
 
